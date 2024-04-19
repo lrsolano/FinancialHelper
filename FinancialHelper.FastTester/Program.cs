@@ -23,6 +23,7 @@ IAverageIndicator exponencialMoreFaster = new ExponencialAverageIndicator(9);
 IAverageIndicator hiloSLow = new ExponencialAverageIndicator(21);
 
 
+
 IMethod hiloMethod = new HiLoMethod(9, hiloSLow);
 IMethod simpleMethod = new SimpleMovingAverageMethod(exponencialSlower);
 IMethod methodAverage = new MovingAverageMethod(exponencialFast, exponencialSlower);
